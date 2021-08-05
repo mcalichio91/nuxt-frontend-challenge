@@ -1,6 +1,7 @@
-# frontend-challenge
 
-## Build Setup
+# Talently Challenge
+
+## Configuración
 
 ```bash
 # install dependencies
@@ -17,53 +18,48 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+El reto tiene dos partes:
 
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+Primera parte:
+Crear un dashboard en donde se va a ver una tabla con la lista de postulantes con su respectivo estado y la fecha de su potulación.
+Los estados son: Postuló, admitido y rechazado.
+Se podrá filtrar por el estado y tendrá un buscador en donde se podrá buscar por email y nombre.
+Diseño del dashboard
+- Desktop.  
+  ![list_desktop](https://user-images.githubusercontent.com/11076563/128381463-544b4a1c-cdd5-4acd-814b-a2cb666085f8.png)
+- Mobile.  
+![list_mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png)
 
 
-### `pages`
+Segunda parte:
+Crear un formulario para que un usuario pueda postular, los campos que debe tener el formulario deben ser los siguientes:
+ - Nombres 
+ - Apellidos
+ - Email
+ - Teléfono
+ - El perfil del postulante: las opciones son Backend, Frontend, Fullstack, Mobile Developer, Qa Engineer and Devops
+ - Los años de experiencia
+ - El nivel de inglés: entre básico, intermedio y avanzado
+ - Y se debe poder agregar los lenguajes de programación que conoce de la siguiente lista. (javascript, php, python, ruby, c#, objetive-c, c++, kotlin, Java)
+Diseño del Formulario
+- Desktop.   
+  ![form_desktop](https://user-images.githubusercontent.com/11076563/128381563-b9a6d6f8-097c-441a-adf9-376ea35700c2.png)
+- Mobile.  
+  ![form_mobile](https://user-images.githubusercontent.com/11076563/128381629-ce4b6f53-2c15-49ce-bc9b-2e788c49557f.png)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
-### `plugins`
+# Entregable o Expectativa del reto
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+- La limpieza y legibilidad del código será considerada.
+- La validación del formulario será a criterio personal
+- La eficiencia del código en cuestiones de rendimiento sumarán para esta prueba.
+- Debe ser responsivo para desktop y mobile (1366 x 768) 
+- Al finalizar el reto, enviar el enlace de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech con título "Reto Frontend- Talently 2021-08"
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+# Preguntas de conocimiento
 
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+1. Cuál es la diferencia entre sync, await y los promesa nativas de js?
+2. Cómo utilizas las injecciones en nuxt?
+3. Qué hooks de nuxts implementaríamos en esta solución si quisieramos enviar una notificación al terminar de compilar?
+4. Nombrame 3 escenarios donde podríamos usar middlewares para esta solución? 
