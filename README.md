@@ -37,11 +37,13 @@ Referencia del listado
   ![list_desktop](https://user-images.githubusercontent.com/11076563/128431305-47488409-53b4-4a65-beb9-683e6133445e.png)
 
 - Mobile.  
+
+** Para la vista mobile sólo debe mostarse: image, name, specie y url.
 ![list_mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png)
 
 
 Segunda parte:
-Crear un formulario para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado a excepción de la imagen.
+Crear un formulario popup para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado desktop a excepción de la imagen.
 
 Referencia del formulario
 - Desktop.   
@@ -52,7 +54,7 @@ Referencia del formulario
 
 
 # Entregable o Expectativa del reto
-
+- El reto tiene una duración de 72hrs (3 días) desde el momento que se recibe
 - La limpieza y legibilidad del código será considerada.
 - La validación del formulario será a criterio personal
 - La eficiencia del código en cuestiones de rendimiento sumarán para esta prueba.
