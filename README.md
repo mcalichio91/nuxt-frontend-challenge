@@ -32,26 +32,18 @@ Los datos que deberás mostrar en cada columna son:
 - created : fecha 
 - url: esta columna abrirá una nueva pestaña. El label del link debe llamarse "Detalle" y el estilo del texto debe ser como "Manage" de la referencia)
 
-Referencia del listado
-- Desktop.  
-  ![list_desktop](https://user-images.githubusercontent.com/11076563/128431305-47488409-53b4-4a65-beb9-683e6133445e.png)
-
-- Mobile.  
-
+ [Referencia Visual Desktop](https://user-images.githubusercontent.com/11076563/128431305-47488409-53b4-4a65-beb9-683e6133445e.png)
+ [Rerefencia Visual Mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png)
 ** Para la vista mobile sólo debe mostarse: image, name, specie y url.
-![list_mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png)
+
 
 
 Segunda parte:
 Crear un formulario popup para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado desktop a excepción de la imagen.
 
 Referencia del formulario
-- Desktop.   
-  ![form_desktop](https://user-images.githubusercontent.com/11076563/128381563-b9a6d6f8-097c-441a-adf9-376ea35700c2.png)
-- Mobile.  
-  ![form_mobile](https://user-images.githubusercontent.com/11076563/128381629-ce4b6f53-2c15-49ce-bc9b-2e788c49557f.png)
-
-
+- [Referencia formulario desktop](https://user-images.githubusercontent.com/11076563/128381563-b9a6d6f8-097c-441a-adf9-376ea35700c2.png)
+- [Rerencia formulario Mobile](https://user-images.githubusercontent.com/11076563/128381629-ce4b6f53-2c15-49ce-bc9b-2e788c49557f.png)
 
 # Entregable o Expectativa del reto
 - El reto tiene una duración de 72hrs (3 días) desde el momento que se recibe
