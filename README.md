@@ -20,28 +20,30 @@ $ yarn generate
 
 El reto tiene dos partes:
 
-Primera parte:
-Crear un dashboard en donde se va a ver una tabla con la lista de postulantes con su respectivo estado y la fecha de su potulación.
-Los estados son: Postuló, admitido y rechazado.
-Se podrá filtrar por el estado y tendrá un buscador en donde se podrá buscar por email y nombre.
-Diseño del dashboard
+Primera parte:   
+Crear un listado de personajes desde el API de Rick And Morty, el nombre del endpoint es `Get All Characters` y la documentación la puedes encontrar en el enlace: https://rickandmortyapi.com/documentation/#get-all-characters
+
+Los datos que deberás mostrar en cada columna son:
+- image : Foto del personaje (en el caso que no tenga foto se deberá mostrar una foto por default [como esta](https://user-images.githubusercontent.com/11076563/128429888-2e2c3104-c617-421f-826a-9782faab5106.png) 
+- name: Nombre del personaje 
+- status: estado del personaje
+- species: especie del personaje
+- gender: género del personaje
+- created : fecha 
+- url: esta columna abrirá una nueva pestaña. El label del link debe llamarse "Detalle" y el estilo del texto debe ser como "Manage" de la referencia)
+
+Referencia del listado
 - Desktop.  
-  ![list_desktop](https://user-images.githubusercontent.com/11076563/128381463-544b4a1c-cdd5-4acd-814b-a2cb666085f8.png)
+  ![list_desktop](https://user-images.githubusercontent.com/11076563/128431305-47488409-53b4-4a65-beb9-683e6133445e.png)
+
 - Mobile.  
 ![list_mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png)
 
 
 Segunda parte:
-Crear un formulario para que un usuario pueda postular, los campos que debe tener el formulario deben ser los siguientes:
- - Nombres 
- - Apellidos
- - Email
- - Teléfono
- - El perfil del postulante: las opciones son Backend, Frontend, Fullstack, Mobile Developer, Qa Engineer and Devops
- - Los años de experiencia
- - El nivel de inglés: entre básico, intermedio y avanzado
- - Y se debe poder agregar los lenguajes de programación que conoce de la siguiente lista. (javascript, php, python, ruby, c#, objetive-c, c++, kotlin, Java)
-Diseño del Formulario
+Crear un formulario para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado a excepción de la imagen.
+
+Referencia del formulario
 - Desktop.   
   ![form_desktop](https://user-images.githubusercontent.com/11076563/128381563-b9a6d6f8-097c-441a-adf9-376ea35700c2.png)
 - Mobile.  
