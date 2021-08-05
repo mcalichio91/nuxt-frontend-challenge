@@ -58,7 +58,7 @@ Diseño del Formulario
 - Al finalizar el reto, enviar el enlace de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech con título "Reto Frontend- Talently 2021-08"
 
 # Preguntas de conocimiento
-
+** Agregar las respuestas en el correo
 1. Cuál es la diferencia entre sync, await y los promesa nativas de js?
 2. Cómo utilizas las injecciones en nuxt?
 3. Qué hooks de nuxts implementaríamos en esta solución si quisieramos enviar una notificación al terminar de compilar?
