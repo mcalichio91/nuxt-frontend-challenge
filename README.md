@@ -36,8 +36,6 @@ Los datos que deberás mostrar en cada columna son:
  [Rerefencia Visual Mobile](https://user-images.githubusercontent.com/11076563/128381851-2aead969-90e5-491d-9daa-910bdee80a13.png).    
 ** Para la vista mobile sólo debe mostarse: image, name, specie y url.
 
-
-
 Segunda parte:
 Crear un formulario popup para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado desktop a excepción de la imagen.
 
@@ -51,7 +49,7 @@ Referencia del formulario
 - La validación del formulario será a criterio personal
 - La eficiencia del código en cuestiones de rendimiento sumarán para esta prueba.
 - Debe ser responsivo para desktop y mobile (1366 x 768) 
-- Al finalizar el reto, enviar el enlace de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech con título "Reto Frontend- Talently 2021-08"
+- Al finalizar el reto, enviar el enlace del fork de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech con título "Reto Frontend- Talently 2021-08"
 
 # Preguntas de conocimiento
 ** Agregar las respuestas en el correo
