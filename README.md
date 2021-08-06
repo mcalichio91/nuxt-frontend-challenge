@@ -37,7 +37,7 @@ Los datos que deberás mostrar en cada columna son:
 ** Para la vista mobile sólo debe mostarse: image, name, specie y url.
 
 Segunda parte:
-Crear un formulario popup para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado desktop a excepción de la imagen.
+Crear un formulario popup para agregar un nuevo personaje, el formulario debe contener los mismos campos que el listado desktop a excepción de la imagen. Al guardar debe ingresar al inicio de la tabla como un nuevo registro.
 
 Referencia del formulario
 - [Referencia formulario desktop](https://user-images.githubusercontent.com/11076563/128381563-b9a6d6f8-097c-441a-adf9-376ea35700c2.png).    
