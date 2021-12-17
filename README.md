@@ -49,7 +49,8 @@ Referencia del formulario
 - La validación del formulario será a criterio personal
 - La eficiencia del código en cuestiones de rendimiento sumarán para esta prueba.
 - Debe ser responsivo para desktop y mobile (1366 x 768) 
-- Al finalizar el reto, enviar el enlace del fork de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech con título "Reto Frontend- Talently 2021-08"
+- Al finalizar el reto, enviar el enlace del fork de la solución a emmanuel.barturen@talently.tech con copia a cristian@talently.tech y 
+dilver@talently.tech con título "Reto Frontend- Talently 2021-12"
 
 # Preguntas de conocimiento
 ** Agregar las respuestas en el correo
